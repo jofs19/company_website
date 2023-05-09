@@ -4,6 +4,8 @@
 Software Services & Solutions
 @endsection
 
+
+
 <section class="ps-lg-4 pe-lg-3 pt-4">
     <div class="px-3 pt-2">
         <!-- Page title + breadcrumb-->
@@ -11,7 +13,7 @@ Software Services & Solutions
         <!-- Slider-->
         <section class="tns-carousel mb-3 mb-md-5">
             <div class="tns-carousel-inner"
-                data-carousel-options="{&quot;items&quot;: 1, &quot;autoHeight&quot;: false, &quot;mode&quot;: &quot;gallery&quot;, &quot;nav&quot;: false, &quot;responsive&quot;: {&quot;0&quot;: {&quot;nav&quot;: true, &quot;controls&quot;: false}, &quot;576&quot;: {&quot;nav&quot;: false, &quot;controls&quot;: true}}}">
+                data-carousel-options="{&quot;nav&quot;: false, &quot;items&quot;: 1, &quot;autoHeight&quot;: false, &quot;mode&quot;: &quot;gallery&quot;, &quot;nav&quot;: false, &quot;responsive&quot;: {&quot;0&quot;: {&quot;nav&quot;: true, &quot;controls&quot;: false}, &quot;576&quot;: {&quot;nav&quot;: false, &quot;controls&quot;: true}}}">
                 <!-- Slide 1-->
                 <div>
                     <div class="rounded-3 px-md-5 text-center text-xl-start  bg-repeat-0 bg-size-cover"
@@ -28,8 +30,7 @@ Software Services & Solutions
                                 <div class="d-flex flex-wrap justify-content-center justify-content-xl-start">
                                     <div class="row g-2 pb-2">
                                         <div class="col-12">
-                                            <button type="button"
-                                                class="btn btn-outline-info d-block w-100">Get Started</button>
+                                            <a class="btn btn-outline-info d-block w-100" href="#quick-view-quote" data-bs-toggle="modal">Get Started</a>
                                             <button type="button" style="visibility: collapse"
                                                 class="btn btn-outline-primary d-block w-100 m-0 p-0">Request
                                                 Quote</button>
@@ -63,7 +64,7 @@ Software Services & Solutions
                                 <div class="d-flex flex-wrap justify-content-center justify-content-xl-start">
                                     <div class="row g-3 pt-2 pb-5">
                                         <div class="col-xs-6 col-sm-6 col-lg-6">
-                                            <a class="btn btn-outline-success d-block w-100" href="#quick-view-electro" data-bs-toggle="modal">Book
+                                            <a class="btn btn-outline-success d-block w-100" href="#quick-view-demo" data-bs-toggle="modal">Book
                                                 Demo</a>
                                             <button type="button" style="visibility: hidden"
                                                 class="btn btn-primary d-block w-100 m-0 p-0 element"></button>
@@ -72,9 +73,7 @@ Software Services & Solutions
                                         <!-- Block outline button -->
                                         <div class="col-xs-6 col-sm-6 col-lg-6">
 
-                                            <button type="button"
-                                                class="btn btn-outline-warning d-block w-100 m-0">Request
-                                                Quote</button>
+                                            <a class="btn btn-outline-primary d-block w-100" href="#quick-view-quote" data-bs-toggle="modal">Request Quote</a>
                                         </div>
                                     </div>
 
@@ -86,6 +85,74 @@ Software Services & Solutions
                 </div>
             </div>
         </section>
+
+
+        <section class="pt-2 pt-md-3 pb-3 mb-3 " id="product-section">
+            <!-- Heading-->
+            <div class="d-flex flex-wrap justify-content-between align-items-center pt-1 border-bottom pb-4 mb-4 ms-2">
+                <h2 class="h3 mb-0 pt-3 me-3 ">Core Products</h2>
+                <div class="pt-3"><a class="btn btn-outline-accent btn-sm" href="grocery-catalog.html">All products<i class="ci-arrow-right ms-1 me-n1"></i></a></div>
+              </div>
+
+
+
+            <div class="tns-carousel tns-controls-static tns-controls-outside tns-nav-enabled pt-2">
+                <div class="tns-carousel-inner"
+                    data-carousel-options="{&quot;items&quot;: 3, &quot;loop&quot;: false, &quot;gutter&quot;: 16, &quot;controls&quot;: true, &quot;autoHeight&quot;: true, &quot;responsive&quot;: {&quot;0&quot;:{&quot;items&quot;:1}, &quot;480&quot;:{&quot;items&quot;:3}, &quot;720&quot;:{&quot;items&quot;:3}, &quot;991&quot;:{&quot;items&quot;:3}, &quot;1140&quot;:{&quot;items&quot;:3}, &quot;1300&quot;:{&quot;items&quot;:3}, &quot;1500&quot;:{&quot;items&quot;:3}}}">
+
+
+                    <div>
+                        <a class="card product-card h-100 border-0 shadow pb-2" href="{{ route('user.brm') }}"><img class="card-img-top" src="{{ asset('frontend/assets/img/brmm.png') }}" width="500" height="500" alt="Product">
+                            <div class="bg-white rounded-3 pt-1 px-2 mx-auto mt-n5" style="width: 175px;"><img class="d-block rounded-3 mx-auto" src="https://th.bing.com/th/id/OIG.yQzXRQcCnZYv03oYJaqI?pid=ImgGn" width="150" alt="Brand"></div>
+                            <div class="card-body text-center pt-3 pb-4">
+                              <h6 class="h6 mb-2">BUSINESS RESOURCE MANAGER</h6>
+                              <div class="fs-ms text-muted">End-to-end solution for your Major business processes.</div>
+                            </div></a>
+                    </div>
+                    <!-- Product-->
+                    <div>
+                        <a class="card product-card h-100 border-0 shadow pb-2" href="{{ route('user.fxa') }}"><img class="card-img-top" src="{{ asset('frontend/assets/img/fas.png') }}" alt="Product">
+                            <div class="bg-white rounded-3 pt-1 px-2 mx-auto mt-n5" style="width: 175px;"><img class="d-block rounded-3 mx-auto" src="https://th.bing.com/th/id/OIG.TokjNXENpggh7GV1IE3Z?pid=ImgGn" width="150" alt="Brand"></div>
+                            <div class="card-body text-center pt-3 pb-4">
+                                <h6 class="h6 mb-2">FIXED ASSET  </h6>
+                                <div class="fs-ms text-muted">Manage your Organization’s Assets with complete end-to-end visibility.</div>
+                            </div></a>
+                    </div>
+                    <!-- Product-->
+
+                    <div>
+                        <a class="card product-card h-100 border-0 shadow pb-2" href="{{ route('user.time') }}"><img class="card-img-top" src="{{ asset('frontend/assets/img/tandpy.png') }}" alt="Product">
+                            <div class="bg-white rounded-3 pt-1 px-2 mx-auto mt-n5" style="width: 175px;"><img class="d-block rounded-3 mx-auto" src="https://th.bing.com/th/id/OIG.N1b6rJPcvGxjGvjTO0IL?pid=ImgGn" width="150" alt="Brand"></div>
+                            <div class="card-body text-center pt-3 pb-4">
+                              <h6 class="h6 mb-2">TIME KEEPING AND PAYROLL</h6>
+                              <div class="fs-ms text-muted">Integrated solution to manage time and payroll of employees.</div>
+                            </div></a>
+                    </div>
+                    <!-- Product-->
+                    <div>
+                        <a class="card product-card h-100 border-0 shadow pb-2" href="#"><img class="card-img-top" src="{{ asset('frontend/assets/img/crmm.png') }}" alt="Product">
+                            <div class="bg-white rounded-3 pt-1 px-2 mx-auto mt-n5" style="width: 175px;"><img class="d-block rounded-3 mx-auto" src="https://th.bing.com/th/id/OIG.TzTe2upsc7ui8KaE.xpY?pid=ImgGn" width="150" alt="Brand"></div>
+                            <div class="card-body text-center pt-3 pb-4">
+                              <h6 class="h6 mb-2">CRM - EQUIPMENT SERVICING</h6>
+                              <div class="fs-ms text-muted">Business Solution for equipment service monitoring & operations.</div>
+                            </div></a>
+                    </div>
+                    <!-- Product-->
+                    <div>
+                        <a class="card product-card h-100 border-0 shadow pb-2" href="#"><img class="card-img-top" src="{{ asset('frontend/assets/img/ppp.png') }}" alt="Product">
+                            <div class="bg-white rounded-3 pt-1 px-2 mx-auto mt-n5" style="width: 175px;"><img class="d-block rounded-3 mx-auto" src="https://th.bing.com/th/id/OIG.4fSB2l07Cejv.Dk.jld5?pid=ImgGn" width="150" alt="Brand"></div>
+                            <div class="card-body text-center pt-3 pb-4">
+                              <h6 class="h6 mb-2">PROPERTY MANAGEMENT</h6>
+                              <div class="fs-ms text-muted">Industry Solution for village & condominium billing & operations.</div>
+                            </div></a>
+                    </div>
+
+                    <!-- Product-->
+
+                </div>
+            </div>
+        </section>
+<hr>
 
 
         <!-- How it works-->
@@ -186,70 +253,11 @@ Software Services & Solutions
         </section>
 
 
-                    <!-- Discounted products (Carousel)-->
-                    <section class="pt-2 pt-md-3 pb-3 mb-3 " id="product-section">
-                        <!-- Heading-->
-                        <div class="d-flex flex-wrap justify-content-between align-items-center pt-1 border-bottom pb-4 mb-4 ms-2">
-                            <h2 class="h3 mb-0 pt-3 me-3 ">Core Products</h2>
-                            <div class="pt-3"><a class="btn btn-outline-accent btn-sm" href="grocery-catalog.html">More products<i class="ci-arrow-right ms-1 me-n1"></i></a></div>
-                          </div>
 
 
 
-                        <div class="tns-carousel tns-controls-static tns-controls-outside tns-nav-enabled pt-2">
-                            <div class="tns-carousel-inner"
-                                data-carousel-options="{&quot;items&quot;: 3, &quot;loop&quot;: false, &quot;gutter&quot;: 16, &quot;controls&quot;: true, &quot;autoHeight&quot;: true, &quot;responsive&quot;: {&quot;0&quot;:{&quot;items&quot;:1}, &quot;480&quot;:{&quot;items&quot;:3}, &quot;720&quot;:{&quot;items&quot;:3}, &quot;991&quot;:{&quot;items&quot;:3}, &quot;1140&quot;:{&quot;items&quot;:3}, &quot;1300&quot;:{&quot;items&quot;:3}, &quot;1500&quot;:{&quot;items&quot;:3}}}">
+{{-- careers --}}
 
-                                <!-- Product-->
-                                <div>
-                                    <a class="card product-card h-100 border-0 shadow pb-2" href="food-delivery-single.html"><img class="card-img-top" src="{{ asset('frontend/assets/img/fas.png') }}" alt="Product">
-                                        <div class="bg-white rounded-3 pt-1 px-2 mx-auto mt-n5" style="width: 175px;"><img class="d-block rounded-3 mx-auto" src="https://th.bing.com/th/id/OIG.YWytmmnjneEMlqR0Co37?pid=ImgGn" width="150" alt="Brand"></div>
-                                        <div class="card-body text-center pt-3 pb-4">
-                                            <h6 class="h6 mb-2">FIXED ASSET  </h6>
-                                            <div class="fs-ms text-muted">Manage your Organization’s Assets with complete end-to-end visibility.</div>
-                                        </div></a>
-                                </div>
-                                <!-- Product-->
-                                <div>
-                                    <a class="card product-card h-100 border-0 shadow pb-2" href="{{ route('user.brm') }}"><img class="card-img-top" src="{{ asset('frontend/assets/img/brmm.png') }}" width="500" height="500" alt="Product">
-                                        <div class="bg-white rounded-3 pt-1 px-2 mx-auto mt-n5" style="width: 175px;"><img class="d-block rounded-3 mx-auto" src="https://th.bing.com/th/id/OIG.yQzXRQcCnZYv03oYJaqI?pid=ImgGn" width="150" alt="Brand"></div>
-                                        <div class="card-body text-center pt-3 pb-4">
-                                          <h6 class="h6 mb-2">BUSINESS RESOURCE MANAGER</h6>
-                                          <div class="fs-ms text-muted">End-to-end solution for your Major business processes.</div>
-                                        </div></a>
-                                </div>
-                                <div>
-                                    <a class="card product-card h-100 border-0 shadow pb-2" href="food-delivery-single.html"><img class="card-img-top" src="{{ asset('frontend/assets/img/tandpy.png') }}" alt="Product">
-                                        <div class="bg-white rounded-3 pt-1 px-2 mx-auto mt-n5" style="width: 175px;"><img class="d-block rounded-3 mx-auto" src="https://th.bing.com/th/id/OIG.N1b6rJPcvGxjGvjTO0IL?pid=ImgGn" width="150" alt="Brand"></div>
-                                        <div class="card-body text-center pt-3 pb-4">
-                                          <h6 class="h6 mb-2">TIME KEEPING AND PAYROLL</h6>
-                                          <div class="fs-ms text-muted">Integrated solution to manage time and payroll of employees.</div>
-                                        </div></a>
-                                </div>
-                                <!-- Product-->
-                                <div>
-                                    <a class="card product-card h-100 border-0 shadow pb-2" href="food-delivery-single.html"><img class="card-img-top" src="{{ asset('frontend/assets/img/crmm.png') }}" alt="Product">
-                                        <div class="bg-white rounded-3 pt-1 px-2 mx-auto mt-n5" style="width: 175px;"><img class="d-block rounded-3 mx-auto" src="https://th.bing.com/th/id/OIG.fzv7uyTjK0Kuy5kkew2y?pid=ImgGn" width="150" alt="Brand"></div>
-                                        <div class="card-body text-center pt-3 pb-4">
-                                          <h6 class="h6 mb-2">CRM - EQUIPMENT SERVICING</h6>
-                                          <div class="fs-ms text-muted">Business Solution for equipment service monitoring & operations.</div>
-                                        </div></a>
-                                </div>
-                                <!-- Product-->
-                                <div>
-                                    <a class="card product-card h-100 border-0 shadow pb-2" href="food-delivery-single.html"><img class="card-img-top" src="{{ asset('frontend/assets/img/ppp.png') }}" alt="Product">
-                                        <div class="bg-white rounded-3 pt-1 px-2 mx-auto mt-n5" style="width: 175px;"><img class="d-block rounded-3 mx-auto" src="https://th.bing.com/th/id/OIG.2SK9QK7W3j3C1pfdHmBJ?w=270&h=270&c=6&r=0&o=5&dpr=1.3&pid=ImgGn" width="150" alt="Brand"></div>
-                                        <div class="card-body text-center pt-3 pb-4">
-                                          <h6 class="h6 mb-2">PROPERTY MANAGEMENT</h6>
-                                          <div class="fs-ms text-muted">Industry Solution for village & condominium billing & operations.</div>
-                                        </div></a>
-                                </div>
-
-                                <!-- Product-->
-
-                            </div>
-                        </div>
-                    </section>
 
 
         <section class="bg-accent bg-size-cover bg-position-center pt-5 pb-4 pb-lg-5 px-4 pb-3 mb-3" style="background-image: url(img/marketplace/features/features-bg.jpg);">

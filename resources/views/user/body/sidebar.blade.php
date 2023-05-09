@@ -37,9 +37,9 @@ style="max-width: 21.875rem;">
                         </div> --}}
                         <ul class="list-unstyled mb-0">
                           <li class="border-bottom mb-0"><a class="nav-link-style d-flex align-items-center px-4 py-3" type="button" data-bs-toggle="modal" data-bs-target="#modalLarge"><i class="ci-book opacity-60 me-2"></i>Book a Demo<span class="fs-sm text-muted ms-auto"></span></a></li>
-                          <li class="border-bottom mb-0"><a class="nav-link-style d-flex align-items-center px-4 py-3" href="account-wishlist.html"><i class="ci-support opacity-60 me-2"></i>Customer Support<span class="fs-sm text-muted ms-auto"></span></a></li>
-                          <li class="border-bottom mb-0"><a class="nav-link-style d-flex align-items-center px-4 py-3" href="account-wishlist.html"><i class="ci-document opacity-60 me-2"></i>Request a Quote<span class="fs-sm text-muted ms-auto"></span></a></li>
-                          <li class="border-bottom mb-2"><a class="nav-link-style d-flex align-items-center px-4 py-3" href="account-tickets.html"><i class="ci-briefcase opacity-60 me-2"></i>Careers<span class="fs-sm text-muted ms-auto"></span></a></li>
+                          <li class="border-bottom mb-0"><a class="nav-link-style d-flex align-items-center px-4 py-3" data-bs-toggle="modal" data-bs-target="#support"><i class="ci-support opacity-60 me-2"></i>Customer Support<span class="fs-sm text-muted ms-auto"></span></a></li>
+                          <li class="border-bottom mb-0"><a class="nav-link-style d-flex align-items-center px-4 py-3" href="#"><i class="ci-document opacity-60 me-2"></i>Request a Quote<span class="fs-sm text-muted ms-auto"></span></a></li>
+                          <li class="border-bottom mb-2"><a class="nav-link-style d-flex align-items-center px-4 py-3" href="#careers" data-bs-toggle="modal"><i class="ci-briefcase opacity-60 me-2"></i>Careers<span class="fs-sm text-muted ms-auto"></span></a></li>
                         </ul>
 
                 </div>
@@ -58,7 +58,7 @@ style="max-width: 21.875rem;">
                         <ul class="list-unstyled mb-0">
                           <li class="border-bottom mb-0"><a class="nav-link-style d-flex align-items-center px-4 py-3" href="account-orders.html"><i class="ci-help opacity-60 me-2"></i>At A Glance<span class="fs-sm text-muted ms-auto"></span></a></li>
                           <li class="border-bottom mb-0"><a class="nav-link-style d-flex align-items-center px-4 py-3" href="{{ route('user.about') }}"><i class="ci-help opacity-60 me-2"></i>About Us<span class="fs-sm text-muted ms-auto"></span></a></li>
-                          <li class="border-bottom mb-0"><a class="nav-link-style d-flex align-items-center px-4 py-3" href="account-wishlist.html"><i class="ci-help opacity-60 me-2"></i>Contact Us<span class="fs-sm text-muted ms-auto"></span></a></li>
+                          <li class="border-bottom mb-0"><a class="nav-link-style d-flex align-items-center px-4 py-3" href="#"><i class="ci-help opacity-60 me-2"></i>Contact Us<span class="fs-sm text-muted ms-auto"></span></a></li>
                           <li class="border-bottom mb-2"><a class="nav-link-style d-flex align-items-center px-4 py-3" href="account-tickets.html"><i class="ci-help opacity-60 me-2"></i>Products<span class="fs-sm text-muted ms-auto"></span></a></li>
                         </ul>
                 </div>
@@ -70,10 +70,10 @@ style="max-width: 21.875rem;">
     <div class="d-flex mb-3"><i class="ci-support h4 mb-0 fw-normal text-primary mt-1 me-1"></i>
         <div class="ps-2">
             <div class="text-muted fs-sm">Support</div><a class="nav-link-style fs-md"
-                href="tel:+100331697720">634-4785</a><br>
+                href="tel:+100331697720">+63 (2) 8 638 7026</a><br>
             <a class="nav-link-style fs-md" href="tel:+100331697720">
-                638-7026</a><br>
-            <a class="nav-link-style fs-md" href="tel:+100331697720">635-7852</a>
+                +63 (2) 8 634 4785</a><br>
+            <a class="nav-link-style fs-md" href="tel:+100331697720">+63 (2) 8 635-7852</a>
         </div>
     </div>
     <div class="d-flex mb-3"><i class="ci-mail h5 mb-0 fw-normal text-primary mt-1 me-1"></i>

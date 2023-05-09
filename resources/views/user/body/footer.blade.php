@@ -21,14 +21,14 @@
 
 <section class="container-fluid px-0">
     <div class="row g-0">
-      <div class="col-md-6"><a class="card border-0 rounded-0 text-decoration-none py-md-4 bg-faded-primary" href="blog-list-sidebar.html">
-          <div class="card-body text-center"><i class="ci-chat h3 mt-2 mb-4 text-primary"></i>
-            <h3 class="h5 mb-1">Reach out</h3>
+      <div class="col-md-6"><a class="card border-0 rounded-0 text-decoration-none py-md-4 bg-faded-primary" href="#">
+          <div class="card-body text-center"><i class="ci-book h3 mt-2 mb-4 text-primary"></i>
+            <h3 class="h5 mb-1">Book a demo</h3>
             <p class="text-muted fs-sm">See how ASCII can help your business</p>
           </div></a></div>
       <div class="col-md-6"><a class="card border-0 rounded-0 text-decoration-none py-md-4 bg-faded-accent" href="#">
-          <div class="card-body text-center"><i class="ci-support h3 mt-2 mb-4 text-accent"></i>
-            <h3 class="h5 mb-1">We are here to help you!</h3>
+          <div class="card-body text-center"><i class="ci-document h3 mt-2 mb-4 text-accent"></i>
+            <h3 class="h5 mb-1">Request a Quote</h3>
             <p class="text-muted fs-sm">Is there anything you need?</p>
           </div></a></div>
     </div>

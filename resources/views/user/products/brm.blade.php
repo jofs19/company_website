@@ -54,7 +54,7 @@ Business Resource Manager
               <div class="card-body text-center"><i class="ci-arrows-horizontal h2 mt-2 mb-4 text-primary"></i>
                 <h6>
                     MANAGE SUPPLIER ORDERS</h6>
-                <p class="fs-sm text-muted pb-5 mb-3">We’ll help you centralize your procurement process, optimize your supply chain management, and be fully informed of every step of your orders by accessing your data anytime and anywhere.</p> <br><a class="btn btn-outline-primary btn-sm stretched-link mb-2" href="help-single-topic.html">Learn more</a>
+                <p class="fs-sm text-muted pb-5 mb-3">We’ll help you centralize your procurement process, optimize your supply chain management, and be fully informed of every step of your orders by accessing your data anytime and anywhere.</p> <br><a class="btn btn-outline-primary btn-sm stretched-link mb-2" data-bs-toggle="modal" data-bs-target="#mso">Learn more</a>
               </div>
             </div>
           </div>
@@ -62,7 +62,7 @@ Business Resource Manager
             <div class="card border-0 shadow">
               <div class="card-body text-center"><i class="ci-currency-exchange h2 mt-2 mb-4 text-primary"></i>
                 <h6>MANAGE BILLS</h6>
-                <p class="fs-sm text-muted pb-2">Let us eliminate time-consuming and error-prone activities by automating your accounts payable process. Extract relevant data to make better decisions in managing your payables, expenses, credit terms, and cash flow.</p><br><a class="btn btn-outline-primary btn-sm stretched-link mb-2" href="help-single-topic.html">Learn more</a>
+                <p class="fs-sm text-muted pb-2">Let us eliminate time-consuming and error-prone activities by automating your accounts payable process. Extract relevant data to make better decisions in managing your payables, expenses, credit terms, and cash flow.</p><br><a class="btn btn-outline-primary btn-sm stretched-link mb-2" data-bs-toggle="modal" data-bs-target="#mbills">Learn more</a>
               </div>
             </div>
           </div>
@@ -71,7 +71,7 @@ Business Resource Manager
               <div class="card-body text-center"><i class="ci-money-bag h2 mt-2 mb-4 text-primary"></i>
                 <h6>
                     PAY BILLS</h6>
-                <p class="fs-sm text-muted pb-2">Streamline your payment process by centralizing all payments into a single platform. By automating your workflow, your team can spend less time on manual processing and focus on other essential tasks while staying confident that bills are paid on time, every time.</p><a class="btn btn-outline-primary btn-sm stretched-link mb-2" href="help-single-topic.html">Learn more</a>
+                <p class="fs-sm text-muted pb-2">Streamline your payment process by centralizing all payments into a single platform. By automating your workflow, your team can spend less time on manual processing and focus on other essential tasks while staying confident that bills are paid on time, every time.</p><a class="btn btn-outline-primary btn-sm stretched-link mb-2" data-bs-toggle="modal" data-bs-target="#pbills">Learn more</a>
               </div>
             </div>
           </div>
@@ -79,7 +79,7 @@ Business Resource Manager
             <div class="card border-0 shadow">
               <div class="card-body text-center"><i class="ci-document h2 mt-2 mb-4 text-primary"></i>
                 <h6>INVENTORY MODULE</h6>
-                <p class="fs-sm text-muted pb-2">Track your inventory movement, utilization, and consumption. Create your orders, check stock turns, and reorder as necessary based on your ideal lead time. With a simplified inventory and warehousing workflow, you can take advantage of various analytics to boost efficiency and drive business performance.</p><a class="btn btn-outline-primary btn-sm stretched-link mb-2" href="help-single-topic.html">Learn more</a>
+                <p class="fs-sm text-muted pb-2">Track your inventory movement, utilization, and consumption. Create your orders, check stock turns, and reorder as necessary based on your ideal lead time. With a simplified inventory and warehousing workflow, you can take advantage of various analytics to boost efficiency and drive business performance.</p><a class="btn btn-outline-primary btn-sm stretched-link mb-2" data-bs-toggle="modal" data-bs-target="#minventory">Learn more</a>
               </div>
             </div>
           </div>
@@ -89,7 +89,7 @@ Business Resource Manager
               <div class="card-body text-center"><i class="ci-filter-alt h2 mt-2 mb-4 text-primary"></i>
                 <h6>
                     GENERAL LEDGER</h6>
-                <p class="fs-sm text-muted pb-2">Track your inventory movement, utilization, and consumption. Create your orders, check stock turns, and reorder as necessary based on your ideal lead time. With a simplified inventory and warehousing workflow, you can take advantage of various analytics to boost efficiency and drive business performance.</p><a class="btn btn-outline-primary btn-sm stretched-link mb-2" href="help-single-topic.html">Learn more</a>
+                <p class="fs-sm text-muted pb-2">Track your inventory movement, utilization, and consumption. Create your orders, check stock turns, and reorder as necessary based on your ideal lead time. With a simplified inventory and warehousing workflow, you can take advantage of various analytics to boost efficiency and drive business performance.</p><a class="btn btn-outline-primary btn-sm stretched-link mb-2" data-bs-toggle="modal" data-bs-target="#ledger">Learn more</a>
               </div>
             </div>
           </div>
@@ -98,7 +98,7 @@ Business Resource Manager
             <div class="card border-0 shadow">
               <div class="card-body text-center"><i class="ci-calculator h2 mt-2 mb-4 text-primary"></i>
                 <h6>TAX REPORTING</h6>
-                <p class="fs-sm text-muted pb-1">We know that tax preparation and reporting can be tedious and time consuming, that  is why we’d be happy to do it for you. With the Tax Calculator, you can automate your tax preparation so you could spend more time on high-value work that matters.</p><br><a class="btn btn-outline-primary btn-sm stretched-link mb-2" href="help-single-topic.html">Learn more</a>
+                <p class="fs-sm text-muted pb-1">We know that tax preparation and reporting can be tedious and time consuming, that  is why we’d be happy to do it for you. With the Tax Calculator, you can automate your tax preparation so you could spend more time on high-value work that matters.</p><br><a class="btn btn-outline-primary btn-sm stretched-link mb-2" data-bs-toggle="modal" data-bs-target="#tax">Learn more</a>
               </div>
             </div>
           </div>
@@ -129,10 +129,10 @@ Business Resource Manager
         </div>
       </section> --}}
       <!-- Submit request-->
-      <section class="container text-center pt-1 pb-5 mb-2">
+      {{-- <section class="container text-center pt-1 pb-5 mb-2">
         <h2 class="h4 pb-3">Haven't found the answer? We can help.</h2><i class="ci-help h3 text-primary d-block mb-4"></i><a class="btn btn-primary" href="help-submit-request.html">Submit a request</a>
         <p class="fs-sm pt-4">Contact us and we’ll get back to you as soon as possible.</p>
-      </section>
+      </section> --}}
 
 
 @endsection

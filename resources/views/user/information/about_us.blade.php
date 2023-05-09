@@ -40,6 +40,62 @@ About Us
         </div>
       </div>
     </section>
+
+
+    {{-- <section class="container py-3 py-lg-5 mt-4 mb-3 px-5">
+        <h2 class="h3 my-2">Our core team</h2>
+        <p class="fs-sm text-muted">People behind your great business solutions</p>
+        <div class="row pt-3">
+          <div class="col-lg-4 col-sm-6 mb-grid-gutter">
+            <div class="d-flex align-items-center"><img class="rounded-circle" src="https://cdn3.iconfinder.com/data/icons/business-round-flat-vol-1-1/36/user_account_profile_avatar_person_student_male-512.png" width="96" alt="Jonathan Doe">
+              <div class="ps-3">
+                <h6 class="fs-base pt-1 mb-1">Name of person</h6>
+                <p class="fs-ms text-muted mb-0">CEO, Co-founder</p><a class="nav-link-style fs-ms text-nowrap" href="mailto:johndoe@example.com"><i class="ci-mail me-2"></i>johndoe@example.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-grid-gutter">
+            <div class="d-flex align-items-center"><img class="rounded-circle" src="https://cdn3.iconfinder.com/data/icons/business-round-flat-vol-1-1/36/user_account_profile_avatar_person_student_male-512.png" width="96" alt="Barbara Palson">
+              <div class="ps-3">
+                <h6 class="fs-base pt-1 mb-1">Name of person</h6>
+                <p class="fs-ms text-muted mb-0">Position</p><a class="nav-link-style fs-ms text-nowrap" href="mailto:b.palson@example.com"><i class="ci-mail me-2"></i>sample@example.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-grid-gutter">
+            <div class="d-flex align-items-center"><img class="rounded-circle" src="https://cdn3.iconfinder.com/data/icons/business-round-flat-vol-1-1/36/user_account_profile_avatar_person_student_male-512.png" width="96" alt="William Smith">
+              <div class="ps-3">
+                <h6 class="fs-base pt-1 mb-1">Name of person</h6>
+                <p class="fs-ms text-muted mb-0">Position</p><a class="nav-link-style fs-ms text-nowrap" href="mailto:sample@example.com"><i class="ci-mail me-2"></i>sample@example.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-grid-gutter">
+            <div class="d-flex align-items-center"><img class="rounded-circle" src="https://cdn3.iconfinder.com/data/icons/business-round-flat-vol-1-1/36/user_account_profile_avatar_person_student_male-512.png" width="96" alt="Amanda Gallaher">
+              <div class="ps-3">
+                <h6 class="fs-base pt-1 mb-1">Name of person</h6>
+                <p class="fs-ms text-muted mb-0">Lead UX designer</p><a class="nav-link-style fs-ms text-nowrap" href="sample@example.com"><i class="ci-mail me-2"></i>sample@example.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-grid-gutter">
+            <div class="d-flex align-items-center"><img class="rounded-circle" src="https://cdn3.iconfinder.com/data/icons/business-round-flat-vol-1-1/36/user_account_profile_avatar_person_student_male-512.png" width="96" alt="Benjamin Miller">
+              <div class="ps-3">
+                <h6 class="fs-base pt-1 mb-1">Name of person</h6>
+                <p class="fs-ms text-muted mb-0">Website development</p><a class="nav-link-style fs-ms text-nowrap" href="mailto:sample@example.com"><i class="ci-mail me-2"></i>sample@example.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-grid-gutter">
+            <div class="d-flex align-items-center"><img class="rounded-circle" src="https://cdn3.iconfinder.com/data/icons/business-round-flat-vol-1-1/36/user_account_profile_avatar_person_student_male-512.png" width="96" alt="Miguel Rodrigez">
+              <div class="ps-3">
+                <h6 class="fs-base pt-1 mb-1">Name of person</h6>
+                <p class="fs-ms text-muted mb-0">Position</p><a class="nav-link-style fs-ms text-nowrap" href="mailto:sample@example.com"><i class="ci-mail me-2"></i>sample@example.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section> --}}
     <!-- Section: Shopping outlets-->
     {{-- <section class="row g-0">
       <div class="col-md-6 bg-position-center bg-size-cover bg-secondary order-md-2" style="min-height: 15rem; background-image: url(img/about/04.jpg);"></div>
@@ -108,31 +164,6 @@ About Us
     </section> --}}
     <!-- Section: We are hiring-->
     <hr>
-    <section class="row g-0">
-      <div class="col-md-6 bg-position-center bg-size-cover bg-secondary order-md-2" style="min-height: 15rem; background-image: url({{ asset('frontend/assets/img/about/05.jpg') }});"></div>
-      <div class="col-md-6 px-3 px-md-5 py-5 order-md-1">
-        <div class="mx-auto py-lg-5" style="max-width: 35rem;">
-          <h2 class="h3 mb-2">We are hiring new talents</h2>
-          <p class="fs-sm text-muted pb-2">If you want to be part of our team please submit you CV using the form below:</p>
-          <form class="needs-validation row g-4" method="post" novalidate>
-            <div class="col-sm-6">
-              <input class="form-control" type="text" placeholder="Your name" required>
-            </div>
-            <div class="col-sm-6">
-              <input class="form-control" type="email" placeholder="Your email" required>
-            </div>
-            <div class="col-12">
-              <textarea class="form-control" rows="4" placeholder="Message" required></textarea>
-            </div>
-            <div class="col-12">
-              <input class="form-control" type="file" required>
-            </div>
-            <div class="col-12">
-              <button class="btn btn-info btn-shadow" type="submit">Submit your CV</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </section>
+
   </main>
   @endsection

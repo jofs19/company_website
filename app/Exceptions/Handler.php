@@ -45,4 +45,17 @@ class Handler extends ExceptionHandler
             //
         });
     }
+
+    // render
+    public function render($request, Throwable $exception)
+    {
+        if ($exception instanceof \Symfony\Component\HttpKernel\Exception\NotFoundHttpException) {
+            return response()->view('errors.404', [], 404);
+        }
+
+        if ($exception instanceof \Illuminate\Session\TokenMismatchException) {
+            return redirect()->route('login');
+        }
+        return parent::render($request, $exception);
+    }
 }

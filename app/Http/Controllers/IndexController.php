@@ -17,4 +17,12 @@ class IndexController extends Controller
     public function BRM(){
         return view('user.products.brm');
     }
+
+    public function FixedAssets(){
+        return view('user.products.fixed_assets');
+    }
+
+    public function TimePayroll(){
+        return view('user.products.time');
+    }
 }
