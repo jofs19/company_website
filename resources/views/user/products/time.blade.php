@@ -8,14 +8,14 @@ Time Keeping & Payroll
 
 
       <!-- Hero section with search-->
-      <section class="position-relative bg-dark bg-size-cover bg-position-center-x position-relative py-5 mb-5" style="background-image: url(https://info.asciidevsystem.com/wp-content/uploads/2022/10/Assets.png);"><span class="position-absolute top-0 start-0 w-100 h-100 bg-darker" style="opacity: .65;"></span>
+      <section class="position-relative bg-dark bg-size-cover bg-position-center-x position-relative py-5 mb-5" style="background-image: url(https://info.asciidevsystem.com/wp-content/uploads/2022/03/timekeeping-1.jpg);"><span class="position-absolute top-0 start-0 w-100 h-100 bg-darker" style="opacity: .65;"></span>
         <div class="container position-relative zindex-5 py-4 my-3">
           <div class="row justify-content-center">
             <div class="col-lg-8">
-              <h1 class="text-light text-center">
+              <h1 class="text-light text-center scale-in-center">
                 TIMEKEEPING & PAYROLL
 </h1>
-              <p class="pb-3 text-light text-center">The ASCII Time and Payroll is a simplified multi-user solution that streamlines the timekeeping and payroll process for businesses of all sizes and industries and is compliant with the latest regulations on labor and taxation, can generate all types of reports using government prescribed forms.</p>
+              <p class="pb-3 text-light text-center text-focus-in">The ASCII Time and Payroll is a simplified multi-user solution that streamlines the timekeeping and payroll process for businesses of all sizes and industries and is compliant with the latest regulations on labor and taxation, can generate all types of reports using government prescribed forms.</p>
 
             </div>
           </div>
@@ -32,23 +32,23 @@ Time Keeping & Payroll
         <h2 class="h3 text-center">Features</h2>
         <div class="row pt-4 px-2">
 
-          <div class="col-lg-4 col-sm-6 mb-grid-gutter">
+          <div class="col-lg-6 col-sm-6 mb-grid-gutter">
             <div class="card border-0 shadow">
               <div class="card-body text-center"><i class="ci-loading h2 mt-2 mb-4 text-primary"></i>
-                <h6>FIXED ASSET SETUP</h6>
-                <p class="fs-sm text-muted pb-2">Maintain all essential asset information in a single space which you can access anytime and anywhere.</p><br><a class="btn btn-outline-primary btn-sm stretched-link mb-2" data-bs-toggle="modal" data-bs-target="#assetup">Learn more</a>
+                <h6>Time & Attendance</h6>
+                <p class="fs-sm text-muted pb-0 mb-1">We implement real-time attendance to keep your payroll in sync with data your biometric device which allows you to track employee performance for better employee management. ASCII Timekeeping System saves you hours of time and money by automating the essentials so you can focus on your business.</p><br><a class="btn btn-outline-primary btn-sm stretched-link mb-2" data-bs-toggle="modal" data-bs-target="#attendance">Learn more</a>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6 mb-grid-gutter">
+          <div class="col-lg-6 col-sm-6 mb-grid-gutter">
             <div class="card border-0 shadow">
               <div class="card-body text-center"><i class="ci-location h2 mt-2 mb-4 text-primary"></i>
-                <h6>ASSET TRACKER</h6>
-                <p class="fs-sm text-muted pb-4 mb-4">Any number of sites and businesses can be used to track whereabouts and asset movements.</p><a class="btn btn-outline-primary btn-sm stretched-link mb-2" data-bs-toggle="modal" data-bs-target="#assetracker">Learn more</a>
+                <h6>Payroll Calculation</h6>
+                <p class="fs-sm text-muted pb-4 mb-4">We give you the tools to streamline and reduce the time it takes to finish your payroll processing by 90%, so you can spend less time worrying how take care of your employees’ benefits, compensations, and reports, and more time running your company.</p><a class="btn btn-outline-primary btn-sm stretched-link mb-2" data-bs-toggle="modal" data-bs-target="#payroll-calcu">Learn more</a>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6 mb-grid-gutter">
+          {{-- <div class="col-lg-4 col-sm-6 mb-grid-gutter">
             <div class="card border-0 shadow">
               <div class="card-body text-center"><i class="ci-security-check h2 mt-2 mb-4 text-primary"></i>
                 <h6>
@@ -56,7 +56,7 @@ Time Keeping & Payroll
                 <p class="fs-sm text-muted pb-2">Stay on top of your asset’s conditions by capturing information, history, and cost accumulation on capitalizable major repairs and expendable minor repairs.</p><a class="btn btn-outline-primary btn-sm stretched-link mb-2" data-bs-toggle="modal" data-bs-target="#fxa">Learn more</a>
               </div>
             </div>
-          </div>
+          </div> --}}
 
 
         </div>

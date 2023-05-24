@@ -28,7 +28,7 @@
                                         </div>
 
                                         <div class="mega-dropdown-column pt-4 px-2 px-lg-3">
-                                          <div class="widget widget-links"><a class="d-block overflow-hidden rounded-3 mb-3" href="#"><center><img src="https://th.bing.com/th/id/OIG.N1b6rJPcvGxjGvjTO0IL?pid=ImgGn" width="120px" alt="product"></center></a>
+                                          <div class="widget widget-links"><a class="d-block overflow-hidden rounded-3 mb-3" href="{{ route('user.time') }}"><center><img src="https://th.bing.com/th/id/OIG.N1b6rJPcvGxjGvjTO0IL?pid=ImgGn" width="120px" alt="product"></center></a>
                                             <h6 class="fs-base mb-2 text-center">Time Keeping & Payroll</h6>
 
                                           </div>
@@ -36,13 +36,13 @@
                                       </div>
                                       <div class="d-flex flex-wrap flex-sm-nowrap">
                                         <div class="mega-dropdown-column pt-4 px-2 px-lg-3">
-                                          <div class="widget widget-links"><a class="d-block overflow-hidden rounded-3 mb-3" href="#"><center><img src="https://th.bing.com/th/id/OIG.TzTe2upsc7ui8KaE.xpY?pid=ImgGn" width="120px" alt="product"></center></a>
+                                          <div class="widget widget-links"><a class="d-block overflow-hidden rounded-3 mb-3" href="{{ route('user.crm') }}"><center><img src="https://th.bing.com/th/id/OIG.TzTe2upsc7ui8KaE.xpY?pid=ImgGn" width="120px" alt="product"></center></a>
                                             <h6 class="fs-base mb-2 text-center">CRM - Equipment & Services</h6>
 
                                           </div>
                                         </div>
                                         <div class="mega-dropdown-column pt-4 px-2 px-lg-3">
-                                          <div class="widget widget-links"><a class="d-block overflow-hidden rounded-3 mb-3" href="#"><center><img src="https://th.bing.com/th/id/OIG.4fSB2l07Cejv.Dk.jld5?pid=ImgGn" width="120px" alt="product"></center></a>
+                                          <div class="widget widget-links"><a class="d-block overflow-hidden rounded-3 mb-3" href="{{ route('user.property') }}"><center><img src="https://th.bing.com/th/id/OIG.4fSB2l07Cejv.Dk.jld5?pid=ImgGn" width="120px" alt="product"></center></a>
                                             <h6 class="fs-base mb-2 text-center">Property Management</h6>
 
                                           </div>

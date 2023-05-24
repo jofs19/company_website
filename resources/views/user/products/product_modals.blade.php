@@ -729,7 +729,7 @@
 {{-- ================================================================================================================================= --}}
 {{-- time keeping & payroll --}}
 
-{{-- ASSET SETUP Module --}}
+{{-- Time & Attendance Module --}}
 <!-- Extra large modal-->
 <div class="modal fade" id="attendance" tabindex="-1" role="dialog">
     <div class="modal-dialog modal-xl" role="document">
@@ -781,40 +781,98 @@
 
 
 
-{{-- ASSET SETUP Module --}}
+{{-- Payroll Calcu Module --}}
 <!-- Extra large modal-->
-<div class="modal fade" id="assetracker" tabindex="-1" role="dialog">
+<div class="modal fade" id="payroll-calcu" tabindex="-1" role="dialog">
     <div class="modal-dialog modal-xl" role="document">
       <div class="modal-content">
         <div class="modal-header bg-faded-dark">
-          <h4 class="modal-title">Asset Issuance</h4>
+          <h4 class="modal-title">Payroll Calculation</h4>
           <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
             <div>
-                <h2 class="h4 pb-3">Asset Issuance & Accountability</h2>
-                <p class="fs-md">Keep track of on-hand and issued assets including where they are located
+                <h2 class="h4 pb-3">Payroll Module</h2>
+                <p class="fs-md">Monitor and process employee attendance in one seamless solution
                 </p>
                 <div class="row pt-3 pb-4 mb-2 mb-md-4">
                   <div class="col-md-6 pad-me">
 
                     <div class="gallery">
-                        <a href="https://info.asciidevsystem.com/wp-content/uploads/2022/10/adsweb-1.png" class="gallery-item rounded-3" data-sub-html='<h6 class="fs-sm text-light">Asset Insurance & Accountability</h6>'>
-                            <img class="w-100 img-thumbnail" src="https://info.asciidevsystem.com/wp-content/uploads/2022/10/adsweb-1.png" style="max-width: 508px;" alt="Product">
-                          <span class="gallery-item-caption">Asset Issuance & Accountability</span>
+                        <a href="https://info.asciidevsystem.com/wp-content/uploads/2022/05/ga.png" class="gallery-item rounded-3" data-sub-html='<h6 class="fs-sm text-light">Payroll Module</h6>'>
+                            <img class="w-100 img-thumbnail" src="https://info.asciidevsystem.com/wp-content/uploads/2022/05/ga.png" style="max-width: 508px;" alt="Product">
+                          <span class="gallery-item-caption">Payroll Module</span>
                         </a>
                       </div>
                 </div>
                   <div class="col-md-6 pt-4 bg-faded-info pe-2 me-0">
-                    <h3 class="h6">Pros of our Asset Issuance & Accountability</h3>
+                    <h3 class="h6">Pros of our Payroll Module</h3>
                     <ul class="list-unstyled fs-sm pt-2">
-                      <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span>Request and Issue assets to various employees of your organization
+                      <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span>Automatically calculate payroll that is compliant with updated government policies (TRAIN Law, SSS, PHIC, HDMF tables)
 
                       </span></li>
-                      <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span> Monitor asset movement across multiple sites and locations</span></li>
-                      <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span>Keep track of the current and historical issuance to employees for better accountability</span></li>
-                      <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span>Fast and efficient physical audits of assets with real-time automated updates to the asset register</span></li>
+                      <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span> Automatic year-end annualization on 13th month and taxes to avoid last minute rush</span></li>
+                      <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span>Application of loan deductions and amortization based on loan setup</span></li>
+                      <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span>Generate employee pay slip which can be accessed in the employee portal</span></li>
+                      <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span>Generate reports on government mandatory contributions</span></li>
 
+
+
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary btn-sm" type="button" data-bs-dismiss="modal">Close</button>
+          {{-- <button class="btn btn-primary btn-shadow btn-sm" type="button">Save changes</button> --}}
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+
+{{-- end of Timekeeping site modal --}}
+{{-- ================================================================================================================================= --}}
+{{-- CRM--}}
+
+{{-- ASSET SETUP Module --}}
+<!-- Extra large modal-->
+<div class="modal fade" id="c-portal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-faded-dark">
+          <h4 class="modal-title">Customer Portal</h4>
+          <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div>
+                <h2 class="h4 pb-3">Customer Portal</h2>
+                <p class="fs-md">Monitor and process employee attendance in one seamless solution
+                </p>
+                <div class="row pt-3 pb-4 mb-2 mb-md-4">
+                  <div class="col-md-6 pad-me">
+
+                    <div class="gallery">
+                        <a href="https://info.asciidevsystem.com/wp-content/uploads/2022/05/ga.png" class="gallery-item rounded-3" data-sub-html='<h6 class="fs-sm text-light">Customer Portal</h6>'>
+                            <img class="w-100 img-thumbnail" src="https://info.asciidevsystem.com/wp-content/uploads/2022/05/ga.png" style="max-width: 508px;" alt="Product">
+                          <span class="gallery-item-caption">Customer Portal</span>
+                        </a>
+                      </div>
+                </div>
+                  <div class="col-md-6 pt-4 bg-faded-info pe-2 me-0">
+                    <h3 class="h6">Pros of our Customer Portal</h3>
+                    <ul class="list-unstyled fs-sm pt-2">
+                      <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span>Create customer accounts and capture essential customer information
+
+                      </span></li>
+                      <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span>Register equipment details and warranty information to owners</span></li>
+                      <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span>Create equipment service requests and monitor the status of open requests</span></li>
+                      <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span>Make general inquiries on products or promotions</span></li>
+                      {{-- <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span>Generate timekeeping statistics and reports per employee or department</span></li> --}}
 
 
                     </ul>
@@ -834,38 +892,38 @@
 
 {{-- ASSET SETUP Module --}}
 <!-- Extra large modal-->
-<div class="modal fade" id="fxa" tabindex="-1" role="dialog">
+<div class="modal fade" id="eservice" tabindex="-1" role="dialog">
     <div class="modal-dialog modal-xl" role="document">
       <div class="modal-content">
         <div class="modal-header bg-faded-dark">
-          <h4 class="modal-title">Asset Repairs</h4>
+          <h4 class="modal-title">Service Equipments</h4>
           <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
             <div>
-                <h2 class="h4 pb-3">Asset Maintenance & Disposal</h2>
-                <p class="fs-md">Gain complete visibility and control of your company’s assets through comprehensive reporting
+                <h2 class="h4 pb-3">Equipment Servicing Module</h2>
+                <p class="fs-md">Monitor and process employee attendance in one seamless solution
                 </p>
                 <div class="row pt-3 pb-4 mb-2 mb-md-4">
                   <div class="col-md-6 pad-me">
 
                     <div class="gallery">
-                        <a href="https://info.asciidevsystem.com/wp-content/uploads/2022/10/adsweb-1.png" class="gallery-item rounded-3" data-sub-html='<h6 class="fs-sm text-light">Asset Maintenance & Disposal</h6>'>
-                            <img class="w-100 img-thumbnail" src="https://info.asciidevsystem.com/wp-content/uploads/2022/10/adsweb-1.png" style="max-width: 508px;" alt="Product">
-                          <span class="gallery-item-caption">Asset Maintenance & Disposal</span>
+                        <a href="https://info.asciidevsystem.com/wp-content/uploads/2022/05/ga.png" class="gallery-item rounded-3" data-sub-html='<h6 class="fs-sm text-light">Equipment Servicing Module</h6>'>
+                            <img class="w-100 img-thumbnail" src="https://info.asciidevsystem.com/wp-content/uploads/2022/05/ga.png" style="max-width: 508px;" alt="Product">
+                          <span class="gallery-item-caption">Equipment Servicing Module</span>
                         </a>
                       </div>
                 </div>
                   <div class="col-md-6 pt-4 bg-faded-info pe-2 me-0">
-                    <h3 class="h6">Pros of our Asset Maintenance & Disposal</h3>
+                    <h3 class="h6">Pros of our Equipment Servicing Module</h3>
                     <ul class="list-unstyled fs-sm pt-2">
-                      <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span>Capture transactions for capitalizable major repairs and expendable minor repairs
+                      <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span>Capture service requests and inquiries from the customer portal
 
                       </span></li>
-                      <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span> Monitor repair history  and accumulated costs to make better decisions on the true value of an asset</span></li>
-                      <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span>Dispose and write-off assets that are no longer of use to the organization</span></li>
-                      <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span>Automatically create accounting entries for asset repairs and disposal</span></li>
-
+                      <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span> Assign Technicians to service requests and set service schedules</span></li>
+                      <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span>Generate service reports for service activities done</span></li>
+                      <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span>Identify billable and non-billable activities and materials</span></li>
+                      <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span>Monitor status of service activities and generate various performance reports</span></li>
 
 
                     </ul>
@@ -881,4 +939,163 @@
       </div>
     </div>
 </div>
+
+
+
+{{-- ASSET SETUP Module --}}
+<!-- Extra large modal-->
+<div class="modal fade" id="m-inventory" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-faded-dark">
+          <h4 class="modal-title">Manage Inventory</h4>
+          <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div>
+                <h2 class="h4 pb-3">Inventory Module</h2>
+                <p class="fs-md">Seamless inventory management that allows you to stay on top of stock movements, levels, utilization and costs
+                </p>
+                <div class="row pt-3 pb-4 mb-2 mb-md-4">
+                  <div class="col-md-6 pad-me">
+
+                    <div class="gallery">
+                        <a href="https://info.asciidevsystem.com/wp-content/uploads/2022/05/ga.png" class="gallery-item rounded-3" data-sub-html='<h6 class="fs-sm text-light">Inventory Module</h6>'>
+                            <img class="w-100 img-thumbnail" src="https://info.asciidevsystem.com/wp-content/uploads/2022/05/ga.png" style="max-width: 508px;" alt="Product">
+                          <span class="gallery-item-caption">Inventory Module</span>
+                        </a>
+                      </div>
+                </div>
+                  <div class="col-md-6 pt-4 bg-faded-info pe-2 me-0">
+                    <h3 class="h6">Pros of our Inventory Module</h3>
+                    <ul class="list-unstyled fs-sm pt-2">
+                      <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span>Monitor inventory levels across multiple warehouses and eliminate stock out events
+
+                      </span></li>
+                      <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span> Create Bill of Materials and identify components to finished goods</span></li>
+                      <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span>End-to-end visibility on stock movements from requisition to dispatching across multiple warehouses</span></li>
+                      <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span>Generate various management reports for better decision making</span></li>
+                      <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span>Inventory settings on items can be serialized, or by production batch or by specific identification. This will control inventory receipts and issuance especially on items with product expiration</span></li>
+
+
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary btn-sm" type="button" data-bs-dismiss="modal">Close</button>
+          {{-- <button class="btn btn-primary btn-shadow btn-sm" type="button">Save changes</button> --}}
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+
+{{-- ================================================================================================================================= --}}
+
+
+
+
+{{-- Property Management Module --}}
+<!-- Extra large modal-->
+<div class="modal fade" id="m-properties" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-faded-dark">
+          <h4 class="modal-title">Manage Properties</h4>
+          <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div>
+                <h2 class="h4 pb-3">Property Manager Module</h2>
+                <p class="fs-md">Monitor and process employee attendance in one seamless solution
+                </p>
+                <div class="row pt-3 pb-4 mb-2 mb-md-4">
+                  <div class="col-md-6 pad-me">
+
+                    <div class="gallery">
+                        <a href="https://info.asciidevsystem.com/wp-content/uploads/2022/05/ga.png" class="gallery-item rounded-3" data-sub-html='<h6 class="fs-sm text-light">Property Manager Module</h6>'>
+                            <img class="w-100 img-thumbnail" src="https://info.asciidevsystem.com/wp-content/uploads/2022/05/ga.png" style="max-width: 508px;" alt="Product">
+                          <span class="gallery-item-caption">Property Manager Module</span>
+                        </a>
+                      </div>
+                </div>
+                  <div class="col-md-6 pt-4 bg-faded-info pe-2 me-0">
+                    <h3 class="h6">Pros of our Property Manager Module</h3>
+                    <ul class="list-unstyled fs-sm pt-2">
+                      <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span>Capture essential information on properties such as location, meter numbers, lot/unit area
+
+                      </span></li>
+                      <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span> Setup information on owners and caretakers</span></li>
+                      <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span>Coordinate visitor information with security</span></li>
+
+
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary btn-sm" type="button" data-bs-dismiss="modal">Close</button>
+          {{-- <button class="btn btn-primary btn-shadow btn-sm" type="button">Save changes</button> --}}
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="modal fade" id="b-properties" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-faded-dark">
+          <h4 class="modal-title">Bill Properties</h4>
+          <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div>
+                <h2 class="h4 pb-3">Property Billing Module</h2>
+                <p class="fs-md">Save time and effort by automating your billing process
+                </p>
+                <div class="row pt-3 pb-4 mb-2 mb-md-4">
+                  <div class="col-md-6 pad-me">
+
+                    <div class="gallery">
+                        <a href="https://info.asciidevsystem.com/wp-content/uploads/2022/05/ga.png" class="gallery-item rounded-3" data-sub-html='<h6 class="fs-sm text-light">Property Billing Module</h6>'>
+                            <img class="w-100 img-thumbnail" src="https://info.asciidevsystem.com/wp-content/uploads/2022/05/ga.png" style="max-width: 508px;" alt="Product">
+                          <span class="gallery-item-caption">Property Billing Module</span>
+                        </a>
+                      </div>
+                </div>
+                  <div class="col-md-6 pt-4 bg-faded-info pe-2 me-0">
+                    <h3 class="h6">Pros of our Property Billing Module</h3>
+                    <ul class="list-unstyled fs-sm pt-2">
+                      <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span>Setup various charges such as association dues, road fees, water bills, and more
+
+                      </span></li>
+                      <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span> Can be integrated to digital meter readers for faster capturing of data</span></li>
+                      <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span>Prepare individual or batch billing for units or properties</span></li>
+                      <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span>Automatically calculate penalties for late payments based on set rules</span></li>
+
+                      <li class="d-flex align-items-center mb-2"><i class="ci-check text-success me-2"></i><span>Generate forms and reports such as statement of accounts, receivable aging, and collection performance</span></li>
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary btn-sm" type="button" data-bs-dismiss="modal">Close</button>
+          {{-- <button class="btn btn-primary btn-shadow btn-sm" type="button">Save changes</button> --}}
+        </div>
+      </div>
+    </div>
+</div>
+
+
+{{-- end of Timekeeping site modal --}}
+{{-- ================================================================================================================================= --}}
 

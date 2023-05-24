@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <title>    ASCII | @yield('title')
-</title>
+    <title> ASCII | @yield('title')
+    </title>
     <!-- SEO Meta Tags-->
     <meta name="description" content="Cartzilla - Bootstrap E-commerce Template">
     <meta name="keywords"
@@ -29,7 +29,8 @@
         href="{{ asset('frontend/assets/vendor/tiny-slider/dist/tiny-slider.css') }}" />
     <link rel="stylesheet" media="screen"
         href="{{ asset('frontend/assets/vendor/drift-zoom/dist/drift-basic.min.css') }}" />
-        <link rel="stylesheet" media="screen" href="{{ asset('frontend/assets/vendor/lightgallery/css/lightgallery-bundle.min.css') }}">
+    <link rel="stylesheet" media="screen"
+        href="{{ asset('frontend/assets/vendor/lightgallery/css/lightgallery-bundle.min.css') }}">
 
     <!-- Main Theme Styles + Bootstrap-->
     <link rel="stylesheet" media="screen" href="{{ asset('frontend/assets/css/theme.min.css') }}">
@@ -37,76 +38,72 @@
 
 
     <style>
-
-        .modal-header{
+        .modal-header {
             --cz-bg-opacity: 0.09;
-  background-color: rgba(var(--cz-dark-rgb), var(--cz-bg-opacity)) !important;
+            background-color: rgba(var(--cz-dark-rgb), var(--cz-bg-opacity)) !important;
         }
 
-.modal-open .blur-me {
-    transition: 500ms;
-    -webkit-filter: blur(5px) grayscale(90%);
-    filter: blur(5px) grayscale(90%);
-    }
+        .modal-open .blur-me {
+            transition: 500ms;
+            -webkit-filter: blur(5px) grayscale(90%);
+            filter: blur(5px) grayscale(90%);
+        }
 
-html {
-scroll-behavior: smooth;
-}
+        html {
+            scroll-behavior: smooth;
+        }
+
         .element {
-        display: block;
+            display: block;
         }
 
         @media only screen and (max-width: 768px) {
-        .element {
-            display: none;
-        }
+            .element {
+                display: none;
+            }
         }
 
         @media only screen and (max-width: 480px) {
 
-          .image-container {
-          position: relative;
-          height: 6vh;
-        }
+            .image-container {
+                position: relative;
+                height: 6vh;
+            }
 
-        .center-me {
-          position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
+            .center-me {
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%);
 
-        }
+            }
         }
 
 
         @media only screen and (min-width: 768px) and (max-width: 1023px) {
-      /* div .wrap{
+            /* div .wrap{
       width: 210px;
       word-wrap: break-word;
 
     } */
 
-    .image-container {
-          position: relative;
-          height: 100vh;
+            .image-container {
+                position: relative;
+                height: 100vh;
+            }
+
+            .center-me {
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%);
+
+            }
         }
-
-        .center-me {
-          position: absolute;
-            top: 0;
-            left: 50%;
-            transform: translateX(-50%);
-
-                    }
-}
 
 
 
         @include('user.animation');
-
-
-
-
     </style>
 
 </head>
@@ -198,237 +195,332 @@ scroll-behavior: smooth;
         </div>
     </div>
 
-          <!-- Quick View Modal-->
-          <div class="modal-quick-view modal fade" id="quick-view-demo" tabindex="-1">
-            <div class="modal-dialog modal-xl">
-              <div class="modal-content">
+    <!-- Quick View Modal-->
+    <div class="modal-quick-view modal fade" id="quick-view-demo" tabindex="-1">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
                 <div class="modal-header">
-                  <h4 class="modal-title product-title">See how ASCII can help your business!</h4>
-                  <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title product-title">See how ASCII can help your business!</h4>
+                    <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  <div class="row">
-                    <!-- Product gallery-->
-                    <div class="col-lg-5 pe-lg-0">
+                    <div class="row">
+                        <!-- Product gallery-->
+                        <div class="col-lg-5 pe-lg-0">
 
-                        <img src="https://www.10wallpaper.com/wallpaper/2560x1600/1606/internet_business_technology_hd_wallpaper_11_2560x1600.jpg" class="rounded-3 pb-2 mb-2" alt="Rounded image">
-
-
-                            <p class="fs-sm mb-1 mb-lg-2 pb-1">Our team of experts is always available to provide you with a thorough walkthrough of our products so you can learn how ASCII can provide you with greater insight and control in managing your company's operations.</p>
+                            <img src="https://www.10wallpaper.com/wallpaper/2560x1600/1606/internet_business_technology_hd_wallpaper_11_2560x1600.jpg"
+                                class="rounded-3 pb-2 mb-2" alt="Rounded image">
 
 
-                        <div class="product-details ms-2 pb-1">
-                            <ul class="list-unstyled fs-sm">
-                                <li class="d-flex align-items-center"><i class="ci-check-circle text-success me-1"></i><span class="fs-ms">Efficiently manage your workflows</span></li>
-                                <li class="d-flex align-items-center"><i class="ci-check-circle text-success me-1"></i><span class="fs-ms">Make faster decisions with better data</span></li>
-                                <li class="d-flex align-items-center"><i class="ci-check-circle text-success me-1"></i><span class="fs-ms">Automate your business with our solutions</span></li>
-                              </ul>
+                            <p class="fs-sm mb-1 mb-lg-2 pb-1">Our team of experts is always available to provide you
+                                with a thorough walkthrough of our products so you can learn how ASCII can provide you
+                                with greater insight and control in managing your company's operations.</p>
+
+
+                            <div class="product-details ms-2 pb-1">
+                                <ul class="list-unstyled fs-sm">
+                                    <li class="d-flex align-items-center"><i
+                                            class="ci-check-circle text-success me-1"></i><span
+                                            class="fs-ms">Efficiently manage your workflows</span></li>
+                                    <li class="d-flex align-items-center"><i
+                                            class="ci-check-circle text-success me-1"></i><span class="fs-ms">Make
+                                            faster decisions with better data</span></li>
+                                    <li class="d-flex align-items-center"><i
+                                            class="ci-check-circle text-success me-1"></i><span
+                                            class="fs-ms">Automate your business with our solutions</span></li>
+                                </ul>
+                            </div>
+
                         </div>
-
-                    </div>
-                    <!-- Product details-->
-                    <div class="col-lg-7 pt-4 pt-lg-0 image-zoom-pane py-3">
+                        <!-- Product details-->
+                        <div class="col-lg-7 pt-4 pt-lg-0 image-zoom-pane py-3">
 
 
-                      <div class="card border-0 shadow">
-                        <div class="card-body">
-                          <h2 class="h4 mb-2">Book a Demo</h2>
-                          {{-- <div class="py-3">
+                            <div class="card border-0 shadow">
+                                <div class="card-body">
+                                    <h2 class="h4 mb-2">Book a Demo</h2>
+                                    {{-- <div class="py-3">
                             <h3 class="d-inline-block align-middle fs-base fw-medium mb-2 me-2">With social account:</h3>
                             <div class="d-inline-block align-middle"><a class="btn-social bs-google me-2 mb-2" href="#" data-bs-toggle="tooltip" aria-label="Sign in with Google" data-bs-original-title="Sign in with Google"><i class="ci-google"></i></a><a class="btn-social bs-facebook me-2 mb-2" href="#" data-bs-toggle="tooltip" aria-label="Sign in with Facebook" data-bs-original-title="Sign in with Facebook"><i class="ci-facebook"></i></a><a class="btn-social bs-twitter me-2 mb-2" href="#" data-bs-toggle="tooltip" aria-label="Sign in with Twitter" data-bs-original-title="Sign in with Twitter"><i class="ci-twitter"></i></a></div>
                           </div> --}}
-                          <hr class="pt-3">
-                          {{-- <h3 class="fs-base pt-4 pb-2">Or using form below</h3> --}}
-                          <!-- Forms validation: status text -->
-                            <form class="needs-validation pt-3" novalidate>
-                                <div class="row">
-                                <div class="col-md-4 mb-3">
-                                    <label for="validationCustom01" class="form-label">First name</label>
-                                    <input class="form-control" type="text" id="validationCustom01" placeholder="First name" required>
-                                    <div class="valid-feedback">Looks good!</div>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <label for="validationCustom02" class="form-label">Last name</label>
-                                    <input class="form-control" type="text" id="validationCustom02" placeholder="Last name" required>
-                                    <div class="valid-feedback">Looks good!</div>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <label for="validationCustomUsername" class="form-label">Username</label>
-                                    <input class="form-control" type="text" id="validationCustomUsername" placeholder="Username" required>
-                                    <div class="invalid-feedback">Please choose a username.</div>
-                                    <div class="valid-feedback">Looks good!</div>
-                                </div>
-                                </div>
-
-                                <div class="row">
-                                <div class="col-md-6 mb-3">
-                                    <label for="validationCustom03" class="form-label">Business Email Address</label>
-                                    <input class="form-control" type="text" id="validationCustom01" placeholder="Email address" required>
-                                    <div class="valid-feedback">Looks good!</div>
-                                </div>
-                                <div class="col-md-6 mb-3">
-                                    <label for="validationCustom01" class="form-label">Phone number</label>
-                                    <input class="form-control" type="text" id="validationCustom01" placeholder="Phone number" required>
-                                    <div class="valid-feedback">Looks good!</div>
-                                </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6 mb-3">
-                                        <label for="validationCustom05" class="form-label">Company</label>
-                                        <input class="form-control" type="text" id="validationCustom05" placeholder="Company name" required>
-                                        <div class="invalid-feedback">Please provide a valid input.</div>
-                                        <div class="valid-feedback">Looks good!</div>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <label for="validationCustom05" class="form-label">Position</label>
-                                        <input class="form-control" type="text" id="validationCustom05" placeholder="Company position" required>
-                                        <div class="invalid-feedback">Please provide a valid city.</div>
-                                        <div class="valid-feedback">Looks good!</div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12 mb-3">
-                                        <label for="validationCustom03" class="form-label">City</label>
-                                        <input class="form-control" type="text" id="validationCustom01" placeholder="City name" required>
-                                        <div class="valid-feedback">Looks good!</div>
-                                    </div>
-                                </div>
-                                <div class="mb-3">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="invalidCheck" required>
-                                    <label class="form-check-label" for="invalidCheck">Please have an ASCII representative contact me by phone</label>
-                                    <div class="invalid-feedback">You must agree before submitting.</div>
-                                </div>
-                                </div>
-                                <button class="btn btn-primary" type="submit">Submit Form</button>
-                            </form>
-                        </div>
-                    </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-                    <!-- Quick View Modal-->
-                    <div class="modal-quick-view modal fade" id="quick-view-quote" tabindex="-1">
-                        <div class="modal-dialog modal-xl">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <h4 class="modal-title product-title">See how ASCII can help your business!</h4>
-                              <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                              <div class="row">
-                                <!-- Product gallery-->
-                                <div class="col-lg-6 pe-lg-0">
-
-                                    <img src="https://www.10wallpaper.com/wallpaper/2560x1600/1606/internet_business_technology_hd_wallpaper_11_2560x1600.jpg" class="rounded-3 pb-2 mb-2" alt="Rounded image">
-
-                                        {{-- <h5 class="mb-3">Highlights</h5> --}}
-                                        <p class="fs-sm mb-1 mb-lg-2 pb-1">Our team of experts is always available to provide you with a thorough walkthrough of our products so you can learn how ASCII can provide you with greater insight and control in managing your company's operations.</p>
-                                        {{-- <h5 class="mb-3">Battery</h5>
-                                        <ul class="list-unstyled fs-sm mb-3 mb-lg-4 pb-1">
-                                          <li>Up to 40 hours life</li>
-                                          <li>Fast charging technology</li>
-                                          <li>Charge via Micro-USB cable</li>
-                                        </ul> --}}
-
-                                    <div class="product-details ms-2 pb-1">
-                                        <ul class="list-unstyled fs-sm">
-                                            <li class="d-flex align-items-center"><i class="ci-check-circle text-success me-1"></i><span class="fs-ms">Efficiently manage your workflows</span></li>
-                                            <li class="d-flex align-items-center"><i class="ci-check-circle text-success me-1"></i><span class="fs-ms">Make faster decisions with better data</span></li>
-                                            <li class="d-flex align-items-center"><i class="ci-check-circle text-success me-1"></i><span class="fs-ms">Automate your business with our solutions</span></li>
-                                          </ul>
-                                    </div>
-
-                                </div>
-                                <!-- Product details-->
-                                <div class="col-lg-6 pt-4 pt-lg-0 image-zoom-pane py-3">
-
-
-                                  <div class="card border-0 shadow">
-                                    <div class="card-body">
-                                      <h2 class="h4 mb-2">Book a Demo</h2>
-                                      {{-- <div class="py-3">
-                                        <h3 class="d-inline-block align-middle fs-base fw-medium mb-2 me-2">With social account:</h3>
-                                        <div class="d-inline-block align-middle"><a class="btn-social bs-google me-2 mb-2" href="#" data-bs-toggle="tooltip" aria-label="Sign in with Google" data-bs-original-title="Sign in with Google"><i class="ci-google"></i></a><a class="btn-social bs-facebook me-2 mb-2" href="#" data-bs-toggle="tooltip" aria-label="Sign in with Facebook" data-bs-original-title="Sign in with Facebook"><i class="ci-facebook"></i></a><a class="btn-social bs-twitter me-2 mb-2" href="#" data-bs-toggle="tooltip" aria-label="Sign in with Twitter" data-bs-original-title="Sign in with Twitter"><i class="ci-twitter"></i></a></div>
-                                      </div> --}}
-                                      <hr class="pt-3">
-                                      {{-- <h3 class="fs-base pt-4 pb-2">Or using form below</h3> --}}
-                                      <!-- Forms validation: status text -->
-                                        <form class="needs-validation pt-3" novalidate>
-                                            <div class="row">
+                                    <hr class="pt-3">
+                                    {{-- <h3 class="fs-base pt-4 pb-2">Or using form below</h3> --}}
+                                    <!-- Forms validation: status text -->
+                                    <form class="needs-validation pt-3" novalidate>
+                                        <div class="row">
                                             <div class="col-md-4 mb-3">
                                                 <label for="validationCustom01" class="form-label">First name</label>
-                                                <input class="form-control" type="text" id="validationCustom01" placeholder="First name" required>
+                                                <input class="form-control" type="text" id="validationCustom01"
+                                                    placeholder="First name" required>
                                                 <div class="valid-feedback">Looks good!</div>
                                             </div>
                                             <div class="col-md-4 mb-3">
                                                 <label for="validationCustom02" class="form-label">Last name</label>
-                                                <input class="form-control" type="text" id="validationCustom02" placeholder="Last name" required>
+                                                <input class="form-control" type="text" id="validationCustom02"
+                                                    placeholder="Last name" required>
                                                 <div class="valid-feedback">Looks good!</div>
                                             </div>
                                             <div class="col-md-4 mb-3">
-                                                <label for="validationCustomUsername" class="form-label">Username</label>
-                                                <input class="form-control" type="text" id="validationCustomUsername" placeholder="Username" required>
+                                                <label for="validationCustomUsername"
+                                                    class="form-label">Username</label>
+                                                <input class="form-control" type="text"
+                                                    id="validationCustomUsername" placeholder="Username" required>
                                                 <div class="invalid-feedback">Please choose a username.</div>
                                                 <div class="valid-feedback">Looks good!</div>
                                             </div>
-                                            </div>
+                                        </div>
 
-                                            <div class="row">
+                                        <div class="row">
                                             <div class="col-md-6 mb-3">
-                                                <label for="validationCustom03" class="form-label">Business Email Address</label>
-                                                <input class="form-control" type="text" id="validationCustom01" placeholder="Email address" required>
+                                                <label for="validationCustom03" class="form-label">Business Email
+                                                    Address</label>
+                                                <input class="form-control" type="text" id="validationCustom01"
+                                                    placeholder="Email address" required>
                                                 <div class="valid-feedback">Looks good!</div>
                                             </div>
                                             <div class="col-md-6 mb-3">
-                                                <label for="validationCustom01" class="form-label">Phone number</label>
-                                                <input class="form-control" type="text" id="validationCustom01" placeholder="Phone number" required>
+                                                <label for="validationCustom01" class="form-label">Phone
+                                                    number</label>
+                                                <input class="form-control" type="text" id="validationCustom01"
+                                                    placeholder="Phone number" required>
                                                 <div class="valid-feedback">Looks good!</div>
                                             </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6 mb-3">
+                                                <label for="validationCustom05" class="form-label">Company</label>
+                                                <input class="form-control" type="text" id="validationCustom05"
+                                                    placeholder="Company name" required>
+                                                <div class="invalid-feedback">Please provide a valid input.</div>
+                                                <div class="valid-feedback">Looks good!</div>
                                             </div>
-                                            <div class="row">
-                                                <div class="col-md-6 mb-3">
-                                                    <label for="validationCustom05" class="form-label">Company</label>
-                                                    <input class="form-control" type="text" id="validationCustom05" placeholder="Company name" required>
-                                                    <div class="invalid-feedback">Please provide a valid input.</div>
-                                                    <div class="valid-feedback">Looks good!</div>
-                                                </div>
-                                                <div class="col-md-6 mb-3">
-                                                    <label for="validationCustom05" class="form-label">Position</label>
-                                                    <input class="form-control" type="text" id="validationCustom05" placeholder="Company position" required>
-                                                    <div class="invalid-feedback">Please provide a valid city.</div>
-                                                    <div class="valid-feedback">Looks good!</div>
-                                                </div>
+                                            <div class="col-md-6 mb-3">
+                                                <label for="validationCustom05" class="form-label">Position</label>
+                                                <input class="form-control" type="text" id="validationCustom05"
+                                                    placeholder="Company position" required>
+                                                <div class="invalid-feedback">Please provide a valid city.</div>
+                                                <div class="valid-feedback">Looks good!</div>
                                             </div>
-                                            <div class="row">
-                                                <div class="col-md-12 mb-3">
-                                                    <label for="validationCustom03" class="form-label">City</label>
-                                                    <input class="form-control" type="text" id="validationCustom01" placeholder="City name" required>
-                                                    <div class="valid-feedback">Looks good!</div>
-                                                </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12 mb-3">
+                                                <label for="validationCustom03" class="form-label">City</label>
+                                                <input class="form-control" type="text" id="validationCustom01"
+                                                    placeholder="City name" required>
+                                                <div class="valid-feedback">Looks good!</div>
                                             </div>
-                                            <div class="mb-3">
+                                        </div>
+                                        <div class="mb-3">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" id="invalidCheck" required>
-                                                <label class="form-check-label" for="invalidCheck">Please have an ASCII representative contact me by phone</label>
+                                                <input class="form-check-input" type="checkbox" id="invalidCheck"
+                                                    required>
+                                                <label class="form-check-label" for="invalidCheck">Please have an
+                                                    ASCII representative contact me by phone</label>
                                                 <div class="invalid-feedback">You must agree before submitting.</div>
                                             </div>
-                                            </div>
-                                            <button class="btn btn-primary" type="submit">Submit Form</button>
-                                        </form>
-                                    </div>
+                                        </div>
+                                        <button class="btn btn-primary" type="submit">Submit Form</button>
+                                    </form>
                                 </div>
-                                </div>
-                              </div>
                             </div>
-                          </div>
                         </div>
-                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Quick View Modal-->
+    <div class="modal-quick-view modal fade" id="quick-view-quote" tabindex="-1">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title product-title">See how ASCII can help your business!</h4>
+                    <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <!-- Product details-->
+                        <div class="col-lg-12 pt-4 pt-lg-0 image-zoom-pane py-3">
+
+                            <div class="card border-0 shadow">
+                                <div class="card-body">
+                                    <h2 class="h4 mb-2">Request a Quote</h2>
+
+                                    <hr class="pt-3">
+                                    <!-- Forms validation: status text -->
+                                    <form class="needs-validation pt-3" novalidate>
+                                        <div class="row">
+                                            <div class="col-md-4 mb-3">
+                                                <label for="validationCustom01" class="form-label">First name</label>
+                                                <input class="form-control" type="text" id="validationCustom01"
+                                                    placeholder="First name" required>
+                                                <div class="valid-feedback">Looks good!</div>
+                                            </div>
+                                            <div class="col-md-4 mb-3">
+                                                <label for="validationCustom02" class="form-label">Last name</label>
+                                                <input class="form-control" type="text" id="validationCustom02"
+                                                    placeholder="Last name" required>
+                                                <div class="valid-feedback">Looks good!</div>
+                                            </div>
+                                            <div class="col-md-4 mb-3">
+                                                <label for="validationCustomUsername"
+                                                    class="form-label">Username</label>
+                                                <input class="form-control" type="text"
+                                                    id="validationCustomUsername" placeholder="Username" required>
+                                                <div class="invalid-feedback">Please choose a username.</div>
+                                                <div class="valid-feedback">Looks good!</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-6 mb-3">
+                                                <label for="validationCustom03" class="form-label">Business Email
+                                                    Address</label>
+                                                <input class="form-control" type="text" id="validationCustom01"
+                                                    placeholder="Email address" required>
+                                                <div class="valid-feedback">Looks good!</div>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <label for="validationCustom01" class="form-label">Phone
+                                                    number</label>
+                                                <input class="form-control" type="text" id="validationCustom01"
+                                                    placeholder="Phone number" required>
+                                                <div class="valid-feedback">Looks good!</div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6 mb-3">
+                                                <label for="validationCustom05" class="form-label">Company</label>
+                                                <input class="form-control" type="text" id="validationCustom05"
+                                                    placeholder="Company name" required>
+                                                <div class="invalid-feedback">Please provide a valid input.</div>
+                                                <div class="valid-feedback">Looks good!</div>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <label for="validationCustom05" class="form-label">Position</label>
+                                                <input class="form-control" type="text" id="validationCustom05"
+                                                    placeholder="Company position" required>
+                                                <div class="invalid-feedback">Please provide a valid input.</div>
+                                                <div class="valid-feedback">Looks good!</div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12 mb-3">
+                                                <label for="validationCustom03" class="form-label">City</label>
+                                                <input class="form-control" type="text" id="validationCustom01"
+                                                    placeholder="City name" required>
+                                                <div class="valid-feedback">Looks good!</div>
+                                            </div>
+                                        </div>
+
+                                        <hr class="mt-2 mb-3">
+
+                                        <h6 class="h6 mb-4">Other Solutions</h6>
+
+
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <div class="mb-3">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" id="invalidCheck"
+                                                            >
+                                                        <label class="form-check-label" for="invalidCheck">Business Resource Manager (Full ERP)</label>
+                                                        <div class="invalid-feedback">You must agree before submitting.</div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="mb-3">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" id="invalidCheck"
+                                                            >
+                                                        <label class="form-check-label" for="invalidCheck">General Accounting & Tax Management</label>
+                                                        <div class="invalid-feedback">You must agree before submitting.</div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="mb-3">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" id="invalidCheck"
+                                                            >
+                                                        <label class="form-check-label" for="invalidCheck">Procurement and Payable Management</label>
+                                                        <div class="invalid-feedback">You must agree before submitting.</div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="mb-3">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" id="invalidCheck"
+                                                            >
+                                                        <label class="form-check-label" for="invalidCheck">Order Management and Invoicing</label>
+                                                        <div class="invalid-feedback">You must agree before submitting.</div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <div class="mb-3">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" id="invalidCheck"
+                                                            >
+                                                        <label class="form-check-label" for="invalidCheck">Time and Payroll</label>
+                                                        <div class="invalid-feedback">You must agree before submitting.</div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="mb-3">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" id="invalidCheck"
+                                                            >
+                                                        <label class="form-check-label" for="invalidCheck">CRM Equipment Servicing Solution</label>
+                                                        <div class="invalid-feedback">You must agree before submitting.</div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="mb-3">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" id="invalidCheck"
+                                                            >
+                                                        <label class="form-check-label" for="invalidCheck">Property Management and Billing</label>
+                                                        <div class="invalid-feedback">You must agree before submitting.</div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+
+                                        <button class="btn btn-primary" type="submit">Submit Form</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Product gallery-->
+                        {{-- <div class="col-lg-6 pe-lg-0">
+
+                            <h2 class="h4 mb-2">Other Solutions</h2>
+
+                        </div> --}}
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Navbar-->
 
@@ -439,28 +531,28 @@ scroll-behavior: smooth;
     <div class="blur-me">
 
 
-    @include('user.body.header')
+        @include('user.body.header')
 
 
-    <!-- Sidebar menu-->
-    @include('user.body.sidebar')
+        <!-- Sidebar menu-->
+        @include('user.body.sidebar')
 
-    <!-- Page-->
-    <main class="offcanvas-enabled" style="padding-top: 5rem;">
+        <!-- Page-->
+        <main class="offcanvas-enabled" style="padding-top: 5rem;">
 
-        <!-- Page content-->
+            <!-- Page content-->
 
-        @yield('content')
+            @yield('content')
 
-        <!-- Footer-->
+            <!-- Footer-->
 
-        @include('user.body.footer')
+            @include('user.body.footer')
     </div>
 
     </main>
     <!-- Back To Top Button--><a class="btn-scroll-top" href="#top" data-scroll data-fixed-element><span
-            class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span><i
-            class="btn-scroll-top-icon ci-arrow-up"> </i></a>
+            class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span><i class="btn-scroll-top-icon ci-arrow-up">
+        </i></a>
     <!-- Vendor scrits: js libraries and plugins-->
     <script src="{{ asset('frontend/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('frontend/assets/vendor/simplebar/dist/simplebar.min.js') }}"></script>
@@ -475,32 +567,28 @@ scroll-behavior: smooth;
 <div class="handheld-toolbar">
     <div class="d-table table-layout-fixed w-100">
 
-        @if ((request()->is('/')) ? 'active' : '')
-
-        <a class="d-table-cell handheld-toolbar-item"
-        href="{{ url('/') }}"><span class="handheld-toolbar-icon">
-            <i class="ci-home text-primary"></i></span><span class="handheld-toolbar-label text-primary">Home</span>
-        </a>
-
+        @if (request()->is('/') ? 'active' : '')
+            <a class="d-table-cell handheld-toolbar-item" href="{{ url('/') }}"><span
+                    class="handheld-toolbar-icon">
+                    <i class="ci-home text-primary"></i></span><span
+                    class="handheld-toolbar-label text-primary">Home</span>
+            </a>
         @else
-
-        <a class="d-table-cell handheld-toolbar-item"
-        href="{{ url('/') }}"><span class="handheld-toolbar-icon">
-            <i class="ci-home"></i></span><span class="handheld-toolbar-label">Home</span>
-        </a>
-
-
+            <a class="d-table-cell handheld-toolbar-item" href="{{ url('/') }}"><span
+                    class="handheld-toolbar-icon">
+                    <i class="ci-home"></i></span><span class="handheld-toolbar-label">Home</span>
+            </a>
         @endif
 
 
 
         <a class="d-table-cell handheld-toolbar-item" href="javascript:void(0)" data-bs-toggle="offcanvas"
-        data-bs-target="#sideNav" onclick="window.scrollTo(0, 0)"><span class="handheld-toolbar-icon"><i
-                class="ci-menu"></i></span><span class="handheld-toolbar-label">Menu</span></a>
+            data-bs-target="#sideNav" onclick="window.scrollTo(0, 0)"><span class="handheld-toolbar-icon"><i
+                    class="ci-menu"></i></span><span class="handheld-toolbar-label">Menu</span></a>
 
-        <a class="d-table-cell handheld-toolbar-item"
-        href="#quick-view-demo" data-bs-toggle="modal"><span class="handheld-toolbar-icon"><i
-                    class="ci-book"></i></span><span class="handheld-toolbar-label">Book Demo</span></a>
+        <a class="d-table-cell handheld-toolbar-item" href="#quick-view-demo" data-bs-toggle="modal"><span
+                class="handheld-toolbar-icon"><i class="ci-book"></i></span><span class="handheld-toolbar-label">Book
+                Demo</span></a>
 
 
 

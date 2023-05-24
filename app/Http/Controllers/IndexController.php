@@ -25,4 +25,12 @@ class IndexController extends Controller
     public function TimePayroll(){
         return view('user.products.time');
     }
+
+    public function CRM(){
+        return view('user.products.crm');
+    }
+
+    public function Property(){
+        return view('user.products.property');
+    }
 }

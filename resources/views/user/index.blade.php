@@ -102,8 +102,8 @@ Software Services & Solutions
 
 
                     <div>
-                        <a class="card product-card h-100 border-0 shadow pb-2" href="{{ route('user.brm') }}"><img class="card-img-top" src="{{ asset('frontend/assets/img/brmm.png') }}" width="500" height="500" alt="Product">
-                            <div class="bg-white rounded-3 pt-1 px-2 mx-auto mt-n5" style="width: 175px;"><img class="d-block rounded-3 mx-auto" src="https://th.bing.com/th/id/OIG.yQzXRQcCnZYv03oYJaqI?pid=ImgGn" width="150" alt="Brand"></div>
+                        <a class="card product-card h-50 border-0 shadow pb-2" href="{{ route('user.brm') }}"><img class="card-img-top" src="https://th.bing.com/th/id/OIG.SWd2zhwA72jye2go0iAM?pid=ImgGn" width="500" height="500" alt="Product">
+                            <div class="bg-white rounded-3 pt-1 px-2 mx-auto mt-n5" style="width: 120px"><img class="d-block rounded-3 mx-auto" src="https://th.bing.com/th/id/OIG.yQzXRQcCnZYv03oYJaqI?pid=ImgGn" width="150" alt="Brand"></div>
                             <div class="card-body text-center pt-3 pb-4">
                               <h6 class="h6 mb-2">BUSINESS RESOURCE MANAGER</h6>
                               <div class="fs-ms text-muted">End-to-end solution for your Major business processes.</div>
@@ -111,8 +111,8 @@ Software Services & Solutions
                     </div>
                     <!-- Product-->
                     <div>
-                        <a class="card product-card h-100 border-0 shadow pb-2" href="{{ route('user.fxa') }}"><img class="card-img-top" src="{{ asset('frontend/assets/img/fas.png') }}" alt="Product">
-                            <div class="bg-white rounded-3 pt-1 px-2 mx-auto mt-n5" style="width: 175px;"><img class="d-block rounded-3 mx-auto" src="https://th.bing.com/th/id/OIG.TokjNXENpggh7GV1IE3Z?pid=ImgGn" width="150" alt="Brand"></div>
+                        <a class="card product-card h-50 border-0 shadow pb-2" href="{{ route('user.fxa') }}"><img class="card-img-top" src="https://th.bing.com/th/id/OIG.LgeIBpqEvLsp4qrd5kM6?pid=ImgGn" alt="Product">
+                            <div class="bg-white rounded-3 pt-1 px-2 mx-auto mt-n5" style="width: 120px"><img class="d-block rounded-3 mx-auto" src="https://th.bing.com/th/id/OIG.TokjNXENpggh7GV1IE3Z?pid=ImgGn" width="150" alt="Brand"></div>
                             <div class="card-body text-center pt-3 pb-4">
                                 <h6 class="h6 mb-2">FIXED ASSET  </h6>
                                 <div class="fs-ms text-muted">Manage your Organization’s Assets with complete end-to-end visibility.</div>
@@ -121,8 +121,8 @@ Software Services & Solutions
                     <!-- Product-->
 
                     <div>
-                        <a class="card product-card h-100 border-0 shadow pb-2" href="{{ route('user.time') }}"><img class="card-img-top" src="{{ asset('frontend/assets/img/tandpy.png') }}" alt="Product">
-                            <div class="bg-white rounded-3 pt-1 px-2 mx-auto mt-n5" style="width: 175px;"><img class="d-block rounded-3 mx-auto" src="https://th.bing.com/th/id/OIG.N1b6rJPcvGxjGvjTO0IL?pid=ImgGn" width="150" alt="Brand"></div>
+                        <a class="card product-card h-50 border-0 shadow pb-2" href="{{ route('user.time') }}"><img class="card-img-top" src="https://th.bing.com/th/id/OIG.0YqUgKTfwxhSZk6KszLw?pid=ImgGn" style="width: 100%;" alt="Product">
+                            <div class="bg-white rounded-3 pt-1 px-2 mx-auto mt-n5" style="width: 120px"><img class="d-block rounded-3 mx-auto" src="https://th.bing.com/th/id/OIG.N1b6rJPcvGxjGvjTO0IL?pid=ImgGn" width="150" alt="Brand"></div>
                             <div class="card-body text-center pt-3 pb-4">
                               <h6 class="h6 mb-2">TIME KEEPING AND PAYROLL</h6>
                               <div class="fs-ms text-muted">Integrated solution to manage time and payroll of employees.</div>
@@ -130,8 +130,8 @@ Software Services & Solutions
                     </div>
                     <!-- Product-->
                     <div>
-                        <a class="card product-card h-100 border-0 shadow pb-2" href="#"><img class="card-img-top" src="{{ asset('frontend/assets/img/crmm.png') }}" alt="Product">
-                            <div class="bg-white rounded-3 pt-1 px-2 mx-auto mt-n5" style="width: 175px;"><img class="d-block rounded-3 mx-auto" src="https://th.bing.com/th/id/OIG.TzTe2upsc7ui8KaE.xpY?pid=ImgGn" width="150" alt="Brand"></div>
+                        <a class="card product-card h-50 border-0 shadow pb-2" href="{{ route('user.crm') }}"><img class="card-img-top" src="https://th.bing.com/th/id/OIG.ZjRryMuUYSVvw7oYqeeT?pid=ImgGn" alt="Product">
+                            <div class="bg-white rounded-3 pt-1 px-2 mx-auto mt-n5" style="width: 120px"><img class="d-block rounded-3 mx-auto" src="https://th.bing.com/th/id/OIG.TzTe2upsc7ui8KaE.xpY?pid=ImgGn" width="150" alt="Brand"></div>
                             <div class="card-body text-center pt-3 pb-4">
                               <h6 class="h6 mb-2">CRM - EQUIPMENT SERVICING</h6>
                               <div class="fs-ms text-muted">Business Solution for equipment service monitoring & operations.</div>
@@ -139,8 +139,8 @@ Software Services & Solutions
                     </div>
                     <!-- Product-->
                     <div>
-                        <a class="card product-card h-100 border-0 shadow pb-2" href="#"><img class="card-img-top" src="{{ asset('frontend/assets/img/ppp.png') }}" alt="Product">
-                            <div class="bg-white rounded-3 pt-1 px-2 mx-auto mt-n5" style="width: 175px;"><img class="d-block rounded-3 mx-auto" src="https://th.bing.com/th/id/OIG.4fSB2l07Cejv.Dk.jld5?pid=ImgGn" width="150" alt="Brand"></div>
+                        <a class="card product-card h-50 border-0 shadow pb-2" href="{{ route('user.property') }}"><img class="card-img-top" src="https://th.bing.com/th/id/OIG.mcMD5hPZwVuQ.OtVHQnI?pid=ImgGn" alt="Product">
+                            <div class="bg-white rounded-3 pt-1 px-2 mx-auto mt-n5" style="width: 120px"><img class="d-block rounded-3 mx-auto" src="https://th.bing.com/th/id/OIG.4fSB2l07Cejv.Dk.jld5?pid=ImgGn" width="150" alt="Brand"></div>
                             <div class="card-body text-center pt-3 pb-4">
                               <h6 class="h6 mb-2">PROPERTY MANAGEMENT</h6>
                               <div class="fs-ms text-muted">Industry Solution for village & condominium billing & operations.</div>

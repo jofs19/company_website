@@ -37,6 +37,8 @@ Route::get('/contact', [IndexController::class, 'ContactPage'])->name('user.cont
 Route::get('/business-resource-manager', [IndexController::class, 'BRM'])->name('user.brm');
 Route::get('/fixed-assets', [IndexController::class, 'FixedAssets'])->name('user.fxa');
 Route::get('/time-keeping-payroll', [IndexController::class, 'TimePayroll'])->name('user.time');
+Route::get('/crm', [IndexController::class, 'CRM'])->name('user.crm');
+Route::get('/property-management', [IndexController::class, 'Property'])->name('user.property');
 
 
 require __DIR__.'/auth.php';

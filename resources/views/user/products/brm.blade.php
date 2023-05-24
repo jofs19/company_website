@@ -12,8 +12,8 @@ Business Resource Manager
         <div class="container position-relative zindex-5 py-4 my-3">
           <div class="row justify-content-center">
             <div class="col-lg-8">
-              <h1 class="text-light text-center">BUSINESS RESOURCE MANAGER</h1>
-              <p class="pb-3 text-light text-center">Because your business matters to us, we designed <b>ASCII</b> based on industry best practices using world-class technology. The <b>Business Resource Manager (BRM)</b> is a simple yet powerful tool that is built to support your decision making by providing you with critical and relevant information. Now you have a reliable partner in managing your business.</p>
+              <h1 class="text-light text-center scale-in-center">BUSINESS RESOURCE MANAGER</h1>
+              <p class="pb-3 text-light text-center text-focus-in">Because your business matters to us, we designed <b>ASCII</b> based on industry best practices using world-class technology. The <b>Business Resource Manager (BRM)</b> is a simple yet powerful tool that is built to support your decision making by providing you with critical and relevant information. Now you have a reliable partner in managing your business.</p>
               {{-- <div class="input-group input-group-lg mb-3"><i class="ci-search position-absolute top-50 translate-middle-y text-muted fs-base ms-3"></i>
                 <input class="form-control rounded-start" type="search" placeholder="Ask your question...">
               </div>
@@ -35,7 +35,7 @@ Business Resource Manager
           <div class="col-lg-4 col-sm-6 mb-grid-gutter">
             <div class="card border-0 shadow">
               <div class="card-body text-center"><i class="ci-book h2 mt-2 mb-4 text-primary"></i>
-                <h6>ORDER BOOKING & INVOICING</h6>
+                <h6 class="scale-in-center">ORDER BOOKING & INVOICING</h6>
                 <p class="fs-sm text-muted pb-2">Capture customer purchase orders and convert it to revenue by always staying on top of the status of your orders. Prepare your invoices as soon as the job is done or when an order is fulfilled, anytime, and anywhere. Manage and fulfill your customer orders in a single platform to ensure that nothing is missed out.</p><a class="btn btn-outline-primary btn-sm stretched-link mb-2" data-bs-toggle="modal" data-bs-target="#book">Learn more</a>
               </div>
             </div>

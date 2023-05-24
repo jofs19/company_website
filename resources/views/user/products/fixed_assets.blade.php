@@ -12,8 +12,8 @@ Fixed Assets
         <div class="container position-relative zindex-5 py-4 my-3">
           <div class="row justify-content-center">
             <div class="col-lg-8">
-              <h1 class="text-light text-center">FIXED ASSETS</h1>
-              <p class="pb-3 text-light text-center">Manage your organization’s various assets with end-to-end visibility across all stages from acquisition to disposal. Keep track of asset issuance, repairs, and valuation, using comprehensive management and reporting tools that will best serve your business.</p>
+              <h1 class="text-light text-center scale-in-center">FIXED ASSETS</h1>
+              <p class="pb-3 text-light text-center text-focus-in">Manage your organization’s various assets with end-to-end visibility across all stages from acquisition to disposal. Keep track of asset issuance, repairs, and valuation, using comprehensive management and reporting tools that will best serve your business.</p>
               {{-- <div class="input-group input-group-lg mb-3"><i class="ci-search position-absolute top-50 translate-middle-y text-muted fs-base ms-3"></i>
                 <input class="form-control rounded-start" type="search" placeholder="Ask your question...">
               </div>
